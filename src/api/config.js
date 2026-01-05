@@ -5,12 +5,9 @@ import axios from "axios";
 // ============================================
 
 // Production URL
-// const API_URL = "https://cms-backend-production-63bd.up.railway.app/api";
+const API_URL = "https://yms-constructions-backend.vercel.app/api";
 
-// Local URL (uncomment for local development)
-const API_URL = "http://localhost:5000/api";
-
-// ============================================
+// const API_URL = "http://localhost:5000/api";
 
 const api = axios.create({
   baseURL: API_URL,
